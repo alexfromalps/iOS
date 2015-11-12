@@ -1,0 +1,21 @@
+//
+//  ALContactPicker-Prefix.pch
+//  ALContactPicker
+//
+//  Created by Alex  on 10/13/15.
+//  Copyright (c) 2015 Alex . All rights reserved.
+//
+
+#ifndef ALContactPicker_ALContactPicker_Prefix_pch
+#define ALContactPicker_ALContactPicker_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__);
+#else
+#define DLog(...) //
+#endif
+
+#endif
